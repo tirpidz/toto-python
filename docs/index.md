@@ -10,6 +10,6 @@ You are a working with the software here are some section of the documentation t
 
 | Sections | |
 | --- | --- |
-| 🚀 [Quick Start](docs/doc/quick_start.md)| Fastest way to get your hands dirty
-| 🕶️ [Contributing](docs/doc/contributing.md)| Getting to know the contributing guidelines
-| 📖 [Documentation](docs/doc/doc.md) | All about this documentation
+| 🚀 [Quick Start](doc/quick_start.md)| Fastest way to get your hands dirty
+| 🕶️ [Contributing](doc/contributing.md)| Getting to know the contributing guidelines
+| 📖 [Documentation](doc/doc.md) | All about this documentation
