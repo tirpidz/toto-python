@@ -1,4 +1,4 @@
-![Toto Python](doc/images/prinny.png)
+![Toto Python](docs/doc/images/prinny.png)
 
 ## Overview
 
