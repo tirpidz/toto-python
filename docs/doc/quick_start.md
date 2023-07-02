@@ -54,7 +54,7 @@ The default settings & recommended extensions for the repository are under versi
 
 !!! warning
 
-    ATM with the latest version of the plugins, I'm unable to run isort on save. One has to run it manually with: `isort ./clear_vision`.
+    ATM with the latest version of the plugins, I'm unable to run isort on save. One has to run it manually with: `isort ./toto`.
 
 ### Format & Checks
 
