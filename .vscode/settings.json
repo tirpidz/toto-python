@@ -1,0 +1,13 @@
+{
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--config",
+        "./config.cfg",
+        "toto"
+    ],
+}
