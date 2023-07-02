@@ -324,6 +324,26 @@
     IDE
   </a>
   
+    <nav class="md-nav" aria-label="IDE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vscode" class="md-nav__link">
+    vscode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#format-checks" class="md-nav__link">
+    Format &amp; Checks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -406,6 +426,26 @@
     IDE
   </a>
   
+    <nav class="md-nav" aria-label="IDE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vscode" class="md-nav__link">
+    vscode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#format-checks" class="md-nav__link">
+    Format &amp; Checks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -464,6 +504,32 @@ pip install -r requirements/development.txt
 </code></pre>
 <h2 id="ide">IDE</h2>
 <p>Currently our preference for <code>IDE</code> is with <a href="https://code.visualstudio.com/"><code>vscode</code></a>.</p>
+<h3 id="vscode">vscode</h3>
+<p>The default settings &amp; recommended extensions for the repository are under version control inside the <code>.vscode</code>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>ATM with the latest version of the plugins, I'm unable to run isort on save. One has to run it manually with: <code>isort ./clear_vision</code>.</p>
+</div>
+<h3 id="format-checks">Format &amp; Checks</h3>
+<p>If you want to manually format the codebase &amp; run the synthax checks, the <code>tools</code> folder at the root of the repository.</p>
+<p>To format simply run the following command:</p>
+<pre><code class="language-bash">(venv) ➜  toto-python git:(feat/checks) ./tools/format.sh       
+🔨 Code Formating ...
+All done! ✨ 🍰 ✨
+2 files left unchanged.
+💫 Code Formating done.
+</code></pre>
+<p>To check for errors and warnings run the following command:</p>
+<pre><code class="language-bash">To format simply run the following command:
+```bash
+(venv) ➜  toto-python git:(feat/checks) ./tools/check.sh 
+🛸 Checking Code Formating ...
+All done! ✨ 🍰 ✨
+2 files would be left unchanged.
+💫 Checking Code Formating done.
+🛸 Code Analysis ...
+💫 Code Analysis done
+</code></pre>
 
 
 
