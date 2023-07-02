@@ -55,3 +55,29 @@ The default settings & recommended extensions for the repository are under versi
 !!! warning
 
     ATM with the latest version of the plugins, I'm unable to run isort on save. One has to run it manually with: `isort ./clear_vision`.
+
+### Format & Checks
+
+If you want to manually format the codebase & run the synthax checks, the `tools` folder at the root of the repository.
+
+To format simply run the following command:
+```bash
+(venv) ➜  toto-python git:(feat/checks) ./tools/format.sh       
+🔨 Code Formating ...
+All done! ✨ 🍰 ✨
+2 files left unchanged.
+💫 Code Formating done.
+```
+
+To check for errors and warnings run the following command:
+```bash
+To format simply run the following command:
+```bash
+(venv) ➜  toto-python git:(feat/checks) ./tools/check.sh 
+🛸 Checking Code Formating ...
+All done! ✨ 🍰 ✨
+2 files would be left unchanged.
+💫 Checking Code Formating done.
+🛸 Code Analysis ...
+💫 Code Analysis done
+```
