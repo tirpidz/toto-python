@@ -1,2 +1,4 @@
 dipy
+matplotlib
+nibabel
 numpy

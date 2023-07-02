@@ -5,6 +5,8 @@ from dipy.core.gradients import gradient_table
 import dipy.reconst.dti as dti
 from dipy.segment.mask import median_otsu
 from dipy.reconst.dti import fractional_anisotropy
+import nibabel as nib
+import matplotlib.pyplot as plt
 
 data_fname = "/home/martin/src/toto-python/examples/input/dwi_b1000.nii.gz"
 bval_fname = "/home/martin/src/toto-python/examples/input/bval_1000"
@@ -36,3 +38,7 @@ save_nifti(
     FA.astype(np.float32),
     affine,
 )
+
+slice = FA[:, :, 29]
+plt.imshow(slice.T, cmap="gray", origin="lower")
+plt.savefig("/home/martin/src/toto-python/examples/output/slice.svg")
