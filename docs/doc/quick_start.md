@@ -47,3 +47,11 @@ source venv/bin/activate
 ## IDE
 
 Currently our preference for `IDE` is with [`vscode`](https://code.visualstudio.com/).
+
+### vscode
+
+The default settings & recommended extensions for the repository are under version control inside the `.vscode`.
+
+!!! warning
+
+    ATM with the latest version of the plugins, I'm unable to run isort on save. One has to run it manually with: `isort ./clear_vision`.

@@ -1,4 +1,3 @@
-
 def magic_number() -> int:
     """This is a silly function to test the basic unitest setup."""
     return 42
