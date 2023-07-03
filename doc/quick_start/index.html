@@ -320,6 +320,26 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#running-the-scripts" class="md-nav__link">
+    Running the scripts
+  </a>
+  
+    <nav class="md-nav" aria-label="Running the scripts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fa-extraction" class="md-nav__link">
+    FA extraction
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ide" class="md-nav__link">
     IDE
   </a>
@@ -422,6 +442,26 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#running-the-scripts" class="md-nav__link">
+    Running the scripts
+  </a>
+  
+    <nav class="md-nav" aria-label="Running the scripts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fa-extraction" class="md-nav__link">
+    FA extraction
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ide" class="md-nav__link">
     IDE
   </a>
@@ -502,6 +542,13 @@ pip install -r requirements/development.txt
 </ul>
 <pre><code class="language-bash">source venv/bin/activate
 </code></pre>
+<h2 id="running-the-scripts">Running the scripts</h2>
+<p>The repository has examples files provided in the <code>examples</code> folder. Before running the following scripts, make you that the <code>venv</code> created in the previous step has been activated.</p>
+<h3 id="fa-extraction">FA extraction</h3>
+<p>In order to run the FA extraction scripts run the following command:</p>
+<pre><code class="language-bash">python3 ./toto/FA_extraction.py --data=&quot;/PATH_TO_REPOSITORY/examples/input/dwi_b1000.nii.gz&quot; --bval=&quot;/PATH_TO_REPOSITORY/examples/input/bval_1000&quot; --bvec=&quot;/PATH_TO_REPOSITORY/examples/input/bvec_1000&quot; --output=&quot;/PATH_TO_REPOSITORY/examples/output/tensor_fa.nii.gz&quot;
+</code></pre>
+<p>Where <code>PATH_TO_REPOSITORY</code> is the local path where you cloned the repository.</p>
 <h2 id="ide">IDE</h2>
 <p>Currently our preference for <code>IDE</code> is with <a href="https://code.visualstudio.com/"><code>vscode</code></a>.</p>
 <h3 id="vscode">vscode</h3>
