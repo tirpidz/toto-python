@@ -58,6 +58,15 @@ python3 ./toto/FA_extraction.py --data="/PATH_TO_REPOSITORY/examples/input/dwi_b
 ```
 Where `PATH_TO_REPOSITORY` is the local path where you cloned the repository.
 
+### Slice extraction
+
+ In order to run the slice extraction scripts run the following command:
+
+```bash
+python3 ./toto/slice_extraction.py --data="/PATH_TO_REPOSITORY/examples/output/tensor_fa.nii.gz" --slice_number=30 --output="/PATH_TO_REPOSITORY/examples/output/fa_slice.nii.gz"
+```
+Where `PATH_TO_REPOSITORY` is the local path where you cloned the repository.
+
 ## IDE
 
 Currently our preference for `IDE` is with [`vscode`](https://code.visualstudio.com/).
