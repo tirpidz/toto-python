@@ -44,6 +44,20 @@ pip install -r requirements/development.txt
 ```bash
 source venv/bin/activate
 ```
+
+## Running the scripts
+
+The repository has examples files provided in the `examples` folder. Before running the following scripts, make you that the `venv` created in the previous step has been activated.
+
+### FA extraction
+
+ In order to run the FA extraction scripts run the following command:
+
+```bash
+python3 ./toto/FA_extraction.py --data="/PATH_TO_REPOSITORY/examples/input/dwi_b1000.nii.gz" --bval="/PATH_TO_REPOSITORY/examples/input/bval_1000" --bvec="/PATH_TO_REPOSITORY/examples/input/bvec_1000" --output="/PATH_TO_REPOSITORY/examples/output/tensor_fa.nii.gz"
+```
+Where `PATH_TO_REPOSITORY` is the local path where you cloned the repository.
+
 ## IDE
 
 Currently our preference for `IDE` is with [`vscode`](https://code.visualstudio.com/).
