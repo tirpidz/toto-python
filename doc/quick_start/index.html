@@ -334,6 +334,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#slice-extraction" class="md-nav__link">
+    Slice extraction
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -456,6 +463,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#slice-extraction" class="md-nav__link">
+    Slice extraction
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -547,6 +561,11 @@ pip install -r requirements/development.txt
 <h3 id="fa-extraction">FA extraction</h3>
 <p>In order to run the FA extraction scripts run the following command:</p>
 <pre><code class="language-bash">python3 ./toto/FA_extraction.py --data=&quot;/PATH_TO_REPOSITORY/examples/input/dwi_b1000.nii.gz&quot; --bval=&quot;/PATH_TO_REPOSITORY/examples/input/bval_1000&quot; --bvec=&quot;/PATH_TO_REPOSITORY/examples/input/bvec_1000&quot; --output=&quot;/PATH_TO_REPOSITORY/examples/output/tensor_fa.nii.gz&quot;
+</code></pre>
+<p>Where <code>PATH_TO_REPOSITORY</code> is the local path where you cloned the repository.</p>
+<h3 id="slice-extraction">Slice extraction</h3>
+<p>In order to run the slice extraction scripts run the following command:</p>
+<pre><code class="language-bash">python3 ./toto/slice_extraction.py --data=&quot;/PATH_TO_REPOSITORY/examples/output/tensor_fa.nii.gz&quot; --slice_number=30 --output=&quot;/PATH_TO_REPOSITORY/examples/output/fa_slice.nii.gz&quot;
 </code></pre>
 <p>Where <code>PATH_TO_REPOSITORY</code> is the local path where you cloned the repository.</p>
 <h2 id="ide">IDE</h2>
